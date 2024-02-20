@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ClickableView">
+        <item name="android:colorControlHighlight">@color/cardview_dark_background</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+
+    </style>
+</resources>

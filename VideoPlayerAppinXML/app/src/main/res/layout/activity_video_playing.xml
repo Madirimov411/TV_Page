@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    tools:context=".Playin_in_AndroidStudio_Devices_Online.VideoPlayingActivity">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/videoView"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClick"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#26FF00"
+        android:text="Click" />
+
+</LinearLayout>
